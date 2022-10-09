@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(243, 233, 242); 
+}
+
+button {
+    border: 0px;
+    background: #b4136c;
+    border-radius: 4px;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    transition: 0.2s ease-in all;
+    width: 100px;
+    height:30px;
+    margin:2%;
+  }
+  
+  button:focus { outline: none;}
+  button:hover {background: rgba(134, 62, 62, 0.3);}
+
+
+
+
+h1, h5{
+color:#b11f5b
+}
+p{
+color:rgb(49, 48, 53)
+}
+#container
+{
+	text-align:center;
+}
+#qns
+{
+	text-align:center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em;
+  overflow: hidden;
+  background:rgb(220, 177, 245);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(103, 15, 161);
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:#eab2f5;
+}
+
+li a.active {
+  color: rgb(247, 245, 248);
+  background-color: #d09af4;
+}
+
+.btn-group {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(243, 233, 242);
+    color:#b11f5b
+} 
+
+div
+{
+	text-align:center;
+}
+
+.img-preview
+{
+	width:500px;
+	height:500px;
+}
+
+::-webkit-file-upload-button {
+  background: #b4136c;
+    color: rgba(252, 247, 247, 0.8);
+    padding: 10px;
+    border-radius: 4px;
+    border-color: rgb(255, 0, 212);
+  }
+  
+  ::-webkit-file-upload-button:focus { outline: none;}
+  ::-webkit-file-upload-button:hover {background: rgb(236, 41, 138);}
+
+ 
+  .td{
+    padding-left:20px;
+    }
+
+    .holding{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+      background-color: #ecbf7a;
+      height:100px;
+      width: 50%;
+      margin:auto;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0.5em;
+        overflow: hidden;
+        background:rgb(220, 177, 245);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(122, 26, 185);
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color:#eab2f5;
+      }
+      
+      li a.active {
+        color: rgb(247, 245, 248);
+        background-color: #d09af4;
+      }
+      
+      .btn-group {
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+      }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Melanoma Risk Assessment</title>
+    <link rel="stylesheet" href="risk.css">
+  </head>
+  <body>
+    <ul>
+        <li><a  href="index.html">Home</a></li>
+        <li><a class = "active" href="risk.html">Risk Assessment</a></li>
+    </ul>
+    <div id = "container">
+    <h1>Mela - No - More</h1>
+	<div class="logo">
+		<a href="index.html"><img src="Icon.png" alt="Home"></a>	
+	</div>
+    <h1>Melanoma Risk Assessment</h1>
+    <h5>This quiz is designed for educational purposes only and it is not meant to replace the advice of a medical professional. For any serious concerns, please see your doctor.</h5>
+</div>
+    
+    </div>
+    <div id="qns">
+        <div class="question" id="question-1">
+            <p>What is your gender?</p>
+            <input type="radio" id="question-1-a" name="1">
+            <label for="question-1-a">Female</label><br>
+            <input type="radio" id="question-1-b"  name="1">
+            <label for="question-1-b">Male</label><br>
+        </div>
+
+        <div class="question" id="question-2">
+            <p>What is your age?</p>
+            <input type="radio" id="question-2-a" name="2">
+            <label for="question-2-a">up to 34</label><br>
+            <input type="radio" id="question-2-b" name="2">
+            <label for="question-2-b">35 - 44</label><br>
+            <input type="radio" id="question-2-c" name="2">
+            <label for="question-2-c">45 - 54</label><br>
+            <input type="radio" id="question-2-d" name="2">
+            <label for="question-2-d">55 - 64</label><br>
+            <input type="radio" id="question-2-e" name="2">
+            <label for="question-2-e">65+</label><br>
+        </div>
+
+        <div class="question" id="question-3">
+            <p>How many sunburns did you get where the skin peeled during your childhood and teenage years?</p>
+            <input type="radio" id="question-3-a" name="3">
+            <label for="question-3-a">None</label><br>
+            <input type="radio" id="question-3-b" name="3">
+            <label for="question-3-b">1 - 4</label><br>
+            <input type="radio" id="question-3-c" name="3">
+            <label for="question-3-c">5 - 9</label><br>
+            <input type="radio" id="question-3-d" name="3">
+            <label for="question-3-d">10 or more</label><br>
+        </div>
+
+        <div class="question" id="question-4">
+            <p>What was your natural hair colour when aged 15?</p>
+            <input type="radio" id="question-4-a" name="4">
+            <label for="question-4-a">Dark brown/black</label><br>
+            <input type="radio" id="question-4-b" name="4">
+            <label for="question-4-b">Light brown</label><br>
+            <input type="radio" id="question-4-c" name="4">
+            <label for="question-4-c">Blonde</label><br>
+            <input type="radio" id="question-4-d" name="4">
+            <label for="question-4-d">Red</label><br>
+        </div>
+
+        <div class="question" id="question-5">
+            <p>How many freckles did you have on your arms when aged 15?</p>
+            <input type="radio" id="question-5-a" name="5">
+            <label for="question-5-a">None</label><br>
+            <input type="radio" id="question-5-b" name="5">
+            <label for="question-5-b">Few</label><br>
+            <input type="radio" id="question-5-c" name="5">
+            <label for="question-5-c">Several</label><br>
+            <input type="radio" id="question-5-d" name="5">
+            <label for="question-5-d">A lot</label><br>
+        </div>
+
+        <div class="question" id="question-6">
+            <p>How many moles do you have on your right and left arms combined (counting from the tip of your shoulder down to your hands)</p>
+            <input type="radio" id="question-6-a" name="6">
+            <label for="question-6-a">None</label><br>
+            <input type="radio" id="question-6-b" name="6">
+            <label for="question-6-b">1</label><br>
+            <input type="radio" id="question-6-c" name="6">
+            <label for="question-6-c">2</label><br>
+            <input type="radio" id="question-6-d" name="6">
+            <label for="question-6-d">3 or more</label><br>
+        </div>
+
+        <div class="question" id="question-7">
+            <p>Have you had any skin cancer before (Melanoma, BCC or SCC)?</p>
+            <input type="radio" id="question-7-a" name="7">
+            <label for="question-7-a">No</label><br>
+            <input type="radio" id="question-7-b" name="7">
+            <label for="question-7-b">Yes</label><br>
+        </div>
+
+        <h3 id="res"></h3>
+        <button id = "Submit" onclick="Submit()">Calculate</button>
+         <h5>This tool is based on the paper Identifying individuals at high risk of melanoma: a simple tool authored by Cristina Fortesa, et all published in European Journal of Cancer Prevention 2010 </h5>
+         <br>
+    </div>
+     <script src="risk.js"></script>
+    
+    </body>
+    </html>
