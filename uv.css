@@ -1,0 +1,73 @@
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(243, 233, 242); 
+}
+div
+{
+	text-align:center;
+}
+h1, h2,h4{
+    color:#b11f5b;
+    text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0.5em;
+        overflow: hidden;
+        background:rgb(220, 177, 245);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(122, 26, 185);
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color:#eab2f5;
+      }
+      
+      li a.active {
+        color: rgb(247, 245, 248);
+        background-color: #d09af4;
+      }
+      
+      .btn-group {
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      
+      
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+/* Style the counter cards */
+.card, .card1, .card2, .card3, .card4, .card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  height:170px;
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="uv.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="risk.html">Risk Assessment</a></li>
+        <li><a class="active" href="uv.html">UV Today</a></li>
+    </ul>
+
+    <div id="container">
+        <h1>Your UV Index Today</h1>
+        <a href="index.html"><img src="Icon.png" style="height:100px" alt="Home"></a>
+        <h4>Check The Peak UV Index At Your Location. Enter your city or zipcode in the search box</h4>
+    </div>
+
+    <div style="width: 987px;margin:auto;"><iframe style="display: block;"
+            src="https://cdnres.willyweather.com/widget/loadView.html?id=146024" width="987" height="470"
+            frameborder="0" scrolling="no"></iframe></div>
+    <div class="row" style="width:100%;padding:2%;">
+
+        <div class="column">
+            <div class="card1" style="background-color:  rgb(132, 236, 132); color:darkgreen" ;>
+                <h3>0-2: Low</h3>
+                <p>Wear UV-Blocking sunglasses on bright days <br><br>Use broad spectrum SPF 30+ sunscreen.</p>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card2" style="background-color:  rgb(243, 243, 188);color:chocolate" ;>
+                <h3>3-5: Moderate</h3>
+                <p>Stay in shade near midday <br><br> when the sun is strongest.</p>
+        
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card3" style="background-color:  rgb(243, 243, 132);color:rgb(143, 143, 12)" ;>
+                <h3>6-7: High</h3>
+                <p>Reduce time in the sun between <br><br> 10 a.m. and 4 p.m.</p>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card4" style="background-color:  rgb(243, 166, 213);color:rgb(245, 20, 58)" ;>
+                <h3>8-10: Very High</h3>
+                <p>Seek shade <br><br> Wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses</p>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card5" style="background-color:  rgb(246, 192, 255);color:rgb(226, 43, 214)" ;>
+                <h3>11 or more: Extreme</h3>
+                <p>Unprotected skin can burn in minutes. <br><br> Avoid sun exposure between 10 a.m. and 4 p.m.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
